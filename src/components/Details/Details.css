@@ -1,0 +1,74 @@
+.team-banner {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.team-banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.33;
+  z-index: 1;
+}
+
+.team-banner img {
+  height: 50%;
+  z-index: 2;
+}
+
+.team-info {
+  display: flex;
+  background-color: #686de0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  border-radius: 1em;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.team-info.female-team {
+  background-color: #eb4d4b;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons .btn-round {
+  color: #fff;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  margin: 0 0.5em;
+}
+.social-icons .btn-round svg {
+  width: 100%;
+  height: 100%;
+}
+
+.social-icons .btn.btn-facebook {
+  background-color: #3b5998;
+}
+
+.social-icons .btn.btn-twitter {
+  background-color: #1da1f2;
+}
+
+.social-icons .btn.btn-youtube {
+  background-color: #f00;
+}

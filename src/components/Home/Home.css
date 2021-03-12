@@ -1,0 +1,12 @@
+.home-design {
+  background: #000 url("../../images/home-img.jpg") no-repeat center/cover;
+  min-height: 460px;
+  color: beige;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-color {
+  background-color: #34495e;
+}
